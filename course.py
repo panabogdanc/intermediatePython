@@ -1,6 +1,4 @@
-mytuple = ("Max", 28, "Boston")
-print(mytuple)
-
-mylist = list(mytuple)
-print(mylist)
-
+from collections import Counter
+a = ["ab", "ac", "ac", "ab", "bd"]
+my_counter = Counter(a)
+print(my_counter.most_common(1))
